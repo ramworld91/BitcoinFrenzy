@@ -1,0 +1,9 @@
+.contentWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(57,69,119);
+    line-height: 10vh;
+    margin-top: 130px;
+    
+}

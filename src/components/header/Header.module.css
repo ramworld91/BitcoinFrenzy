@@ -1,0 +1,18 @@
+.headerWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0em 4em;
+    color: rgb(183, 179, 202);
+}
+.img {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+.mainTitle {
+    font-size: 20px;
+    font-weight: 600;
+}

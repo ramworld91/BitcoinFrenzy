@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.appWrapper {
+  text-align: center;
+  display: grid;
+  grid-template-areas: 'h h h' 's c y';
+  grid-auto-rows: 100px 1fr 100px;
+  grid-template-columns: 2fr 10fr 2fr;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.header {
+  grid-area: h;
+  color: aliceblue;
+  background-color: rgb(57, 69, 119);
+}
+
+.navBar {
+  grid-area: s;
+  background-color: rgb(57, 69, 119);
+}
+
+.content {
+  grid-area: c;
+  background-color: rgba(255, 255, 255);
+  margin: 0
+}
+
+.history {
+  grid-area: y;
+  background-color: rgb(216, 216, 216);
+  color: #61dafb;
+  overflow-y: auto;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
